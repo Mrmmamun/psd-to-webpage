@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
+
+header {
+	position: absolute;
+	right: 0;
+	left: 0;
+    z-index: 9999;
+	
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+.nav-item a{
+    color: #FFFFFF!important;
+    text-transform: uppercase;
+    padding: 25px 15px 0px!important;
+    font-family: 'Lato', sans-serif!important;
+    font-size: 15px;
+}
+
+
+/*Banner Area css*/
+
+.banner_area{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.banner_content h2{
+    color: #FFFFFF;
+     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+.banner_content h2::before{
+    content: "";
+    position: absolute;
+    background: #FFFFFF;
+    width: 50px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 55px;
+    
+}
+.banner_content p{
+    color: #FFFFFF;
+     font-family: 'Lato', sans-serif;
+    margin-top: 35px;
+}
+.arrow_icon i{
+    font-size: 50px;
+    color: #FFFFFF;
+   
+}
+
+/*About CSS*/
+.about_content{
+   
+}
+.about_content h4{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding: 68px 0px 60px;
+    
+}
+.about_content h4::before{
+    content: "";
+    position: absolute;
+    background: #222222;
+    width: 60px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 120px;
+
+}
+.about_content p{
+    padding: 0px 0px 45px;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+}
+
+.about_bottom{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+.about_bottom_content {
+    margin-top: 90px;
+}
+.about_bottom_content h2{
+    color: #FEFEFE;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    
+}
+.about_bottom_content p{
+    color: #C5C5C5; 
+    font-family: 'Lato', sans-serif;
+}
+.about_img img{
+    width: 150px;
+    margin-top: 48px!important;
+}
+/*work css*/
+
+.work_content h4{
+    position: relative;
+   padding: 68px 0px 60px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.work_content h4::before{
+    content: "";
+    position: absolute;
+    background: #222222;
+    width: 60px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 120px;
+
+}
+
+.btn-outline-primary{
+         color: #767676;
+       border-color: none;
+       border: none;
+    text-transform: uppercase;
+    margin: 25px 0px 25px;
+}
+.active{
+    padding-top: 0px;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: black;
+    background-color: white; 
+     border-color: none;
+}
+.btn.focus, .btn:focus{
+    box-shadow: none;
+}
+button:focus{
+    outline: none;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-primary.dropdown-toggle:focus{
+    box-shadow: none;
+}
+.btn-outline-primary:hover{
+    background: none;
+    color: #767676;
+}
+.work_photos{
+    position: relative;
+}
+
+.work_photos::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #6D6D6D;
+    opacity: 0;
+    
+}
+
+.photos:hover .work_photos::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #6D6D6D;
+    opacity: .6;
+    
+} 
+
+.work_photos i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    border-radius: 16px;
+    padding: 5px 6px 4px;
+    background: rgba(246, 251, 255, 0.35);
+    opacity: 0;
+}
+
+.photos:hover .work_photos i{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    border-radius: 16px;
+    padding: 5px 6px 4px;
+    background: rgba(246, 251, 255, 0.35);
+    opacity: .6;
+    
+}
+
+.more_btn{
+    background: none;
+    text-transform: uppercase;
+    border: 2px solid #222222;
+    padding: 5px 70px;
+    color: #222222;
+    margin-bottom: 15px;
+}
+/*Client Area CSS*/
+
+.client_area{
+    background: #F4F4F4;
+    height: 50vh
+}
+.client_content h4{
+    text-transform: uppercase;
+    color: #222222;
+    padding: 68px 0px 58px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.client_content h4::before{
+     content: "";
+    position: absolute;
+    background: #222222;
+    width: 60px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 120px;
+}
+
+
+.client_information{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 36vh;
+    
+}
+.client_info_content p{
+    color: #c1bcbcbf;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+.blockquote-footer{
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#demos .owl-carousel .item {
+    background: none;
+}
+
+.owl-nav{
+    display: none;
+}
+
+
+/*Services area CSS*/
+.service_area{
+    margin-bottom: 80px;
+}
+.service_header h4{
+    text-transform: uppercase;
+    color: #222222;
+    padding: 68px 0px 68px;
+    position: relative;
+     font-family: 'Raleway', sans-serif;
+    
+}
+.service_header h4::before{
+    content: "";
+    position: absolute;
+    background: #222222;
+    width: 60px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 120px;
+}
+
+.carousel-indicators li{
+    border-top: none;
+    border-bottom: none;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #b1adad;
+    height: 10px;
+  width: 10px;
+    border-radius: 50%;
+
+    
+}
+
+.blog .carousel-indicators .active {
+background: #005494;
+}
+.service_img1 img{
+    width: 40px;
+    display: block;
+   margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+.service_img2 img {
+    width: 90px;
+    display: block;
+   margin: 0 auto;
+    margin-bottom: 20px;
+}
+.service_img3 img {
+    width: 70px;
+    display: block;
+   margin: 0 auto;
+    margin-bottom: 20px;
+}
+.carousel-item{
+    padding: 30px 0px 10px;
+}
+.service_content h5{
+    margin-bottom: 20px;
+}
+
+/*Counter CSS*/
+.counter_area{
+    height: 30vh;
+      
+}
+.counter_area{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.counter1 span{
+    font-size: 40px;
+    color: white;
+}
+.counter1 p{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.counter2 span{
+    font-size: 40px;
+    color: white;
+}
+.counter2 p{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.counter3 span{
+    font-size: 40px;
+    color: white;
+}
+.counter3 p{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.counter4 span{
+    font-size: 40px;
+    color: white;
+}
+.counter4 p{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*Skill area Css*/
+.skill_header h4{
+    text-transform: uppercase;
+    color: #222222;
+    position: relative;
+    padding: 68px 0px 68px;
+    font-family: 'Raleway', sans-serif;
+}
+.skill_header h4::before{
+    content: "";
+    position: absolute;
+    background: #222222;
+    width: 60px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 120px;
+}
+.skill_left_content h5{
+    text-transform: uppercase;
+}
+.skill_right_content{
+    padding-bottom: 55px;
+}
+.pro-bar.color-clouds {
+    background: #005494;
+}
+.pro-bar-container {
+    height: 14px;
+    border: none;
+}
+
+.progress_bar h6{
+    margin-top: -10px;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+/*Footer CSS*/
+
+.footer_area{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.footer_header h4{
+    padding: 68px 0px 68px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+} 
+.footer_header h4::before{
+     content: "";
+    position: absolute;
+    background: #FFFFFF;
+    width: 60px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 120px;
+}
+.footer_icon{
+    padding: 0px 0px 50px;
+}
+.footer_icon i{
+    font-size: 20px;
+    padding: 0px 10px 0px;
+    color: white;
+}
+.contact_form input{
+    width: 250px;
+    display: inline-block;
+    background: unset;
+    border: unset;
+    border-bottom: 2px solid #AFAFAF;
+    
+}
+
+.contact_form textarea{
+    width: 500px;
+    background: unset;
+    border: unset;
+    border-bottom: 2px solid #AFAFAF;
+}
+textarea:focus{
+    color: white;
+}
+.contact_form{
+   padding: 0px 0px 20px;
+} 
+form {
+    margin: 0 auto;
+    width: 540px;
+}
+ input:focus { 
+  background-color: unset!important;
+     color: white;
+}
+.send_btn{
+    background: none;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid #AFAFAF;
+    padding: 3px 25px;
+    margin-top: 18px;
+}
+
+/*Back to TOp CSS*/
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
